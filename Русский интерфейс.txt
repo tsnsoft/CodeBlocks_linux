@@ -1,0 +1,1 @@
+/usr/share/codeblocks/locale/ru_RU/ru_RU.mo

@@ -1,0 +1,94 @@
+Format: 1.8
+Date: Sat, 06 Jan 2018 11:12:19 +0100
+Source: codeblocks
+Binary: codeblocks codeblocks-common libcodeblocks0 codeblocks-dbg codeblocks-contrib codeblocks-libwxcontrib0 codeblocks-contrib-common codeblocks-contrib-dbg codeblocks-dev codeblocks-headers codeblocks-wxcontrib-dev codeblocks-wxcontrib-headers libwxsmithlib0 libwxsmithlib0-dev wxsmith-dev wxsmith-headers
+Architecture: source all amd64
+Version: 17.12-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Jens Lody <jens@codeblocks.org>
+Changed-By: Jens Lody <jens@odeblocks.org>
+Description:
+ codeblocks - Code::Blocks integrated development environment (IDE)
+ codeblocks-common - common files for Code::Blocks IDE
+ codeblocks-contrib - contrib plugins for Code::Blocks IDE
+ codeblocks-contrib-common - common files for the contrib plugins for Code::Blocks IDE
+ codeblocks-contrib-dbg - Debugging libraries for the Code::Blocks contrib plugins
+ codeblocks-dbg - Code::Blocks debugging libraries
+ codeblocks-dev - Code::Blocks development libraries (SDK)
+ codeblocks-headers - Code::Blocks development headers (SDK)
+ codeblocks-libwxcontrib0 - Code::Blocks shared libraries for wxContribItems
+ codeblocks-wxcontrib-dev - Code::Blocks development libraries for wxContribItems
+ codeblocks-wxcontrib-headers - Code::Blocks development headers for wxContribItems
+ libcodeblocks0 - Code::Blocks shared libraries
+ libwxsmithlib0 - wxSmith shared library (Code::Blocks plugin for RAD GUI editing)
+ libwxsmithlib0-dev - wxSmith development metapackage
+ wxsmith-dev - wxSmith development files (libraries)
+ wxsmith-headers - wxSmith development files (headers)
+Changes:
+ codeblocks (17.12-1) unstable; urgency=medium
+ .
+   * Try to fix cross dependencies.
+Checksums-Sha1:
+ 5e3f721d2c2fa23936024606936e0cf952205234 2135 codeblocks_17.12-1.dsc
+ a9678a89d560e39c41478e3bae158520a18ca2bd 31404 codeblocks_17.12-1.debian.tar.xz
+ c3f85b673a10c9ed487a0fdb37b3bae288d60ac0 3540646 codeblocks-common_17.12-1_all.deb
+ bd6289c3e2362f199de208a122f9d597d0249c82 651676 codeblocks-contrib-common_17.12-1_all.deb
+ f9dac2e155528c4940d407a3798e5e99d52e303f 44569292 codeblocks-contrib-dbg_17.12-1_amd64.deb
+ f029523067360d3c3eb5c2db8ac86f5540b6bf66 3874824 codeblocks-contrib_17.12-1_amd64.deb
+ a3fed2c616cea2d17fc3ce49e25e465f7ea2ec42 32609106 codeblocks-dbg_17.12-1_amd64.deb
+ d7693c8eb0f73bb28e14a5e06cd99a17126a65b4 440166 codeblocks-dev_17.12-1_amd64.deb
+ fd5570f7dcfdc94bbdd586a79180bc02498c3ae4 660886 codeblocks-headers_17.12-1_all.deb
+ a43ba389f41c482c7aa5d243c834a9d3e2806598 6000528 codeblocks-libwxcontrib0-dbgsym_17.12-1_amd64.deb
+ 7f5de8d42db34955e5f05d30c5bb62ebd49f164c 779772 codeblocks-libwxcontrib0_17.12-1_amd64.deb
+ 0d66aa7977c81dc5c181d94118ff666ec8c95c62 440870 codeblocks-wxcontrib-dev_17.12-1_amd64.deb
+ 497dd601747f3a7c0aec26399bb8ee5142069020 486412 codeblocks-wxcontrib-headers_17.12-1_all.deb
+ 7ae0fd4eb306f2f71559b7679a1a296970fbf014 16319 codeblocks_17.12-1_amd64.buildinfo
+ 686c77f4dea7796df293a181d82e20e450c8e74a 2424470 codeblocks_17.12-1_amd64.deb
+ 34ca06fd179716c53535a9686b6f3bf184994141 2411240 libcodeblocks0_17.12-1_amd64.deb
+ 25e9037ebdaee160bfb6b120c7159c49cd47836c 439486 libwxsmithlib0-dev_17.12-1_amd64.deb
+ bc18b713cee705d7bf79b4d67d616b58275756e9 1430168 libwxsmithlib0_17.12-1_amd64.deb
+ a2a8d604e4c26b71d6c7a74f25c16125c6b9594c 440154 wxsmith-dev_17.12-1_amd64.deb
+ 581051896298c0ae0500f7e852c6ec95f522ffb5 502474 wxsmith-headers_17.12-1_all.deb
+Checksums-Sha256:
+ 822535d656af8a3ad008e522e0882505a63ee40e826ce54e20e49ef51a59e46b 2135 codeblocks_17.12-1.dsc
+ 35b4525fef72f01019703ff60891873cf044091b2622744bf9445e711043a0f4 31404 codeblocks_17.12-1.debian.tar.xz
+ e502c79479aa9ac9defee1d35aa13412c0ed4a43ef3be0b37eb6feba4f2b5ca0 3540646 codeblocks-common_17.12-1_all.deb
+ afe4ebfa7e973b038fe63aed3db48831c124c2bb71e390d6c085b5fc3dccf198 651676 codeblocks-contrib-common_17.12-1_all.deb
+ 8d56aeb60e3538dbd0a1c7c47fb9b13255250d78792285ebfb8ffe18aa0537d7 44569292 codeblocks-contrib-dbg_17.12-1_amd64.deb
+ 99971e322b5ea216486e070fd054bd1d839b5b6e7f2513a0c52433b05167d040 3874824 codeblocks-contrib_17.12-1_amd64.deb
+ 2145dfd529eaa0590d62e4b63ddd4607b248d24c8187e6beecf8af78160ab603 32609106 codeblocks-dbg_17.12-1_amd64.deb
+ ad68708e27582d58a192971dbeacd736ce8b98246215686f2e4a39687dd971ac 440166 codeblocks-dev_17.12-1_amd64.deb
+ e3f4fc3b9377c3d9b40a0ed240d37600e1c33bafb589860d1892dc37c25ea318 660886 codeblocks-headers_17.12-1_all.deb
+ db52bd9408b632e13a08bfd0d86ce342895fb3a7e6fde9c9500e97d1ab8de232 6000528 codeblocks-libwxcontrib0-dbgsym_17.12-1_amd64.deb
+ f0f671e2e8da798a32d373b4a56141b2a5801b12ce7567cd41cec14af1dec85a 779772 codeblocks-libwxcontrib0_17.12-1_amd64.deb
+ 7d9a809f256abe43fa25af21a5626a79b789e05856406290baac898c6fe676ae 440870 codeblocks-wxcontrib-dev_17.12-1_amd64.deb
+ cffaf67c90d2b3926d5b7233ac31aeda65eba6b0c2ef88a246be36d81c3dd4dd 486412 codeblocks-wxcontrib-headers_17.12-1_all.deb
+ 575f2c8b0b999f9c139bfc99add5d3278c6aa60ee512e45fe2a6a624893ce257 16319 codeblocks_17.12-1_amd64.buildinfo
+ ec6ba4f968340a5d7b5e372fa12e4d7d105bf63818914fc0d9b5014715c93eaa 2424470 codeblocks_17.12-1_amd64.deb
+ 88f4274711a9184c8a6d69787bf9bf43929ef259ed155df9de52c4ebdc79f94d 2411240 libcodeblocks0_17.12-1_amd64.deb
+ 8a143dc5793169ec61875501f3d30f470f4f8f0d4af57b7c2ff30b2b17fdacff 439486 libwxsmithlib0-dev_17.12-1_amd64.deb
+ b46308bb1e80c4fb34e8b42aa73efbb0446934547fb5c69e25316af6847aff52 1430168 libwxsmithlib0_17.12-1_amd64.deb
+ f610a5a92f80a79bbf988994fd08eaf284526f1b5222338372409ec8c8cbaa22 440154 wxsmith-dev_17.12-1_amd64.deb
+ 3188b424daedb033a076b30940a93efe1a93a26b93ade6e207e7ca91e00cc750 502474 wxsmith-headers_17.12-1_all.deb
+Files:
+ 3e18651e401a5d0cc746c95bcdbd8524 2135 x11 optional codeblocks_17.12-1.dsc
+ 432b7e85665f99b8dd561f73678ec8e9 31404 x11 optional codeblocks_17.12-1.debian.tar.xz
+ 3603e4ae195f028c23a2b0fbc4d5dea2 3540646 x11 optional codeblocks-common_17.12-1_all.deb
+ db88733afb19b5694260ee68a9ed5e75 651676 x11 optional codeblocks-contrib-common_17.12-1_all.deb
+ 0b5b4a04b2e0a72265a74659ec7f83fc 44569292 debug extra codeblocks-contrib-dbg_17.12-1_amd64.deb
+ 9826da4e50e9abfcd9882cdf6e10d101 3874824 x11 optional codeblocks-contrib_17.12-1_amd64.deb
+ 68bb23f98b31c8e569b365f6ce3f3c85 32609106 debug extra codeblocks-dbg_17.12-1_amd64.deb
+ ab96048316be4f6db12d30d81ef0695e 440166 libdevel optional codeblocks-dev_17.12-1_amd64.deb
+ fd99dafdbe5ac68b1a5c12f7eba2b554 660886 x11 optional codeblocks-headers_17.12-1_all.deb
+ 8bc2d25e25201d9868668020a9201cbb 6000528 debug extra codeblocks-libwxcontrib0-dbgsym_17.12-1_amd64.deb
+ f4bdd74a51a72fd78eb6237332bf70bc 779772 libs optional codeblocks-libwxcontrib0_17.12-1_amd64.deb
+ f64cb2233ba5aea677b85932a13560d7 440870 libdevel optional codeblocks-wxcontrib-dev_17.12-1_amd64.deb
+ 433fb4dfefb6b9284806b4fc4e432d2a 486412 x11 optional codeblocks-wxcontrib-headers_17.12-1_all.deb
+ a5b9271c10c379fea3cd783fbd801b93 16319 x11 optional codeblocks_17.12-1_amd64.buildinfo
+ 6729d1d4342011887b2532ba1e35aa65 2424470 x11 optional codeblocks_17.12-1_amd64.deb
+ 91ae065578d483e6acbf13dd93b5f788 2411240 libs optional libcodeblocks0_17.12-1_amd64.deb
+ 85eeee6c1d07f2b6538de0a2a362b77d 439486 libdevel optional libwxsmithlib0-dev_17.12-1_amd64.deb
+ aebb283891af52465ec30f88db8efc1e 1430168 libs optional libwxsmithlib0_17.12-1_amd64.deb
+ cc4b2ac0bda81997bcb4676b22a0e4c0 440154 libdevel optional wxsmith-dev_17.12-1_amd64.deb
+ dba2a6f605b0ece1adc508f522fd08dc 502474 x11 optional wxsmith-headers_17.12-1_all.deb

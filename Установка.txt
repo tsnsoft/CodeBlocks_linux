@@ -1,0 +1,6 @@
+sudo apt-get install build-essential
+sudo apt-get install gdb
+sudo apt-get install libwxgtk*
+sudo dpkg -i *.deb
+
+
